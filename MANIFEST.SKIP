@@ -1,0 +1,11 @@
+^Alien-Ditaa
+\.git
+blib/
+\.DS_Store$
+pm_to_blib$
+Makefile$
+MANIFEST\.SKIP$
+MANIFEST\.bak$
+Makefile\.old$
+\.shipit
+
