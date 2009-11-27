@@ -14,9 +14,16 @@ requires 'Method::Signatures::Simple';
 requires 'Moose';
 requires 'namespace::autoclean';
 
+test_requires 'Test::More' => '0.88';
+
+prompt_script('script/ditaa');
+
 requires_external_bin 'java';
 
-install_script 'script/ditaa';
+if ($Module::Install::AUTHOR) {
+    system("pod2text lib/Alien/Ditaa.pm > README")
+        and die $!;
+}
 
 WriteAll;
 

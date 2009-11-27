@@ -3,5 +3,9 @@ use strict;
 use warnings;
 use Alien::Ditaa;
 
+our $VERSION = '0.001';
+
 Alien::Ditaa->run_ditaa(@ARGV);
+
+1;
 
