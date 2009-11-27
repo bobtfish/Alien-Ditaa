@@ -13,5 +13,7 @@ requires 'Method::Signatures::Simple';
 requires 'Moose';
 requires 'namespace::autoclean';
 
+requires_external_bin 'java';
+
 WriteAll;
 
