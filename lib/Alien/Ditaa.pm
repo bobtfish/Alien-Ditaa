@@ -25,3 +25,35 @@ method run_ditaa {
 
 __PACKAGE__->meta->make_immutable;
 
+=head1 NAME
+
+Alien::Ditaa - Use the ditaa text to diagram package in perl
+
+=head1 SYNOPSIS
+
+    use Alien::Ditaa;
+    my $ditaa = Alien::Ditaa->new;
+    $ditaa->run_ditaa(@args);
+
+=head1 DESCRIPTION
+
+Trivial wrapper to run ditaa from perl.
+
+=head1 SEE ALSO
+
+L<http://ditaa.sourceforge.net>
+
+=head1 AUTHOR
+
+    Tomas Doran (t0m) C< bobtfish@bobtfish.net >
+
+=head1 COPYRIGHT
+
+Copyright 2009 state51 (L<http://www.state51.co.uk>)
+
+=head1 LICENSE
+
+Licensed under the terms of the GNU GPL.
+
+=cut
+
