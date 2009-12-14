@@ -20,6 +20,8 @@ prompt_script('script/ditaa');
 
 requires_external_bin 'java';
 
+resources repository => 'http://goatse.co.uk/~bobtfish/Alien-Ditaa.git';
+
 if ($Module::Install::AUTHOR) {
     system("pod2text lib/Alien/Ditaa.pm > README")
         and die $!;
