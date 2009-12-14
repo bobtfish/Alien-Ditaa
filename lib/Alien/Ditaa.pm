@@ -18,7 +18,6 @@ method get_jar {
 }
 
 method run_ditaa {
-    shift;
     my $java = which 'java';
     exec $java, '-jar', $self->get_jar, @_;
 }

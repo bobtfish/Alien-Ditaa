@@ -5,7 +5,7 @@ use Alien::Ditaa;
 
 our $VERSION = '0.001';
 
-Alien::Ditaa->run_ditaa(@ARGV);
+Alien::Ditaa->new->run_ditaa(@ARGV);
 
 1;
 
