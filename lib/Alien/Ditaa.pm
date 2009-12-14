@@ -19,7 +19,7 @@ method get_jar {
 
 method run_ditaa {
     my $java = which 'java';
-    exec $java, '-jar', $self->get_jar, @_;
+    system( $java, '-jar', $self->get_jar, @_ );
 }
 
 __PACKAGE__->meta->make_immutable;
