@@ -12,6 +12,11 @@ DESCRIPTION
 SEE ALSO
     <http://ditaa.sourceforge.net>
 
+INCLUDED SOFTWARE
+    An unmodified copy of the latest varion of ditaa.jar is included in this
+    package. The latest version and source code can be obtained from the URI
+    above.
+
 AUTHOR
         Tomas Doran (t0m) C< bobtfish@bobtfish.net >
 

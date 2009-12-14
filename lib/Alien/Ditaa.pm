@@ -43,6 +43,12 @@ Trivial wrapper to run ditaa from perl.
 
 L<http://ditaa.sourceforge.net>
 
+=head1 INCLUDED SOFTWARE
+
+An unmodified copy of the latest varion of ditaa.jar is included in
+this package. The latest version and source code can be obtained
+from the URI above.
+
 =head1 AUTHOR
 
     Tomas Doran (t0m) C< bobtfish@bobtfish.net >
