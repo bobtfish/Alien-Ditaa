@@ -7,7 +7,7 @@ use File::Which qw/which/;
 use IPC::Run qw/run/;
 use namespace::autoclean;
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 $VERSION = eval $VERSION;
 
 method get_installed_dir {
