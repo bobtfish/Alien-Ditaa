@@ -7,6 +7,7 @@ all_from 'lib/Alien/Ditaa.pm';
 
 license 'gpl';
 
+requires 'IPC::Run';
 requires 'File::Which';
 requires 'Path::Class';
 requires 'File::ShareDir';
